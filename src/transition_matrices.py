@@ -52,3 +52,13 @@ IMAGE_MATRIX = {
    '16': {'1': 0, '2': 0, '3': 0.05, '4': 0.1, '5': 0, '6': 0.05, '7': 0, '8': 0.2, '9': 0.2,
          '10': 0.05, '11': 0.05, '12': 0.05, '13': 0.05, '14': 0,'15': 0.2, '16': 0}
 }
+
+COLOR_MATRIX = {
+    "cyan": {"magenta": 0.25, "yellow": 0.25, "darkorange": 0.25, "orchid": 0.15, "lime": 0.1, "cyan": 0, "dodgerblue": 0},
+    "magenta": {"magenta": 0, "yellow": 0.25, "darkorange": 0.1, "orchid": 0, "lime": 0.25, "cyan": 0.25, "dodgerblue": 0.15},
+    "lime": {"magenta": 0.25, "yellow": 0.25, "darkorange": 0.25, "orchid": 0.15, "lime": 0, "cyan": 0.05, "dodgerblue": 0.05},
+    "dodgerblue": {"magenta": 0.25, "yellow": 0.3, "darkorange": 0.15, "orchid": 0.15, "lime": 0.1, "cyan": 0.05, "dodgerblue": 0},
+    "orchid": {"magenta": 0.05, "yellow": 0.1, "darkorange": 0.1, "orchid": 0, "lime": 0.25, "cyan": 0.25, "dodgerblue": 0.25},
+    "yellow": {"magenta": 0.1, "yellow": 0, "darkorange": 0.1, "orchid": 0.2, "lime": 0.2, "cyan": 0.2, "dodgerblue": 0.2},
+    "darkorange": {"magenta": 0.05, "yellow": 0.05, "darkorange": 0, "orchid": 0.1, "lime": 0.25, "cyan": 0.25, "dodgerblue": 0.3}
+}

@@ -27,7 +27,7 @@ def generate_grid(rows, cols, start_image="1", start_color="cyan"):
     for _ in range(rows * cols):
         (img_path, color), current_image, current_color = chooser.get_next_pair(current_image, current_color)
         img_no_bg = remove_background(img_path)
-        img_tinted = tint_image(img_no_bg, color)
+        img_tinted = tint_image(img_no_bg, color).convert('RGBA')
         processed_images.append(img_tinted)
 
     img_width, img_height = processed_images[0].size

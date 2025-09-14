@@ -24,7 +24,6 @@ class ImageAndColorChooser:
         self.image_map = map_images()
         self.images = list(image_matrix.keys())
         self.colors = list(color_matrix.keys())
-        print(self.image_matrix)
 
     def get_next_image(self, current_image):
         """Return the next image path based on transition matrix"""

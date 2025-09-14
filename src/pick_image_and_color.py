@@ -13,17 +13,18 @@ def map_images():
     for file in os.listdir(IMAGE_DIR):
         name, ext = os.path.splitext(file)
         if name.isdigit():
-            image_map[name] = os.path.join(IMAGE_DIR, file)
+            image_map[str(name)] = os.path.join(IMAGE_DIR, file)
     return image_map
 
 
 class ImageAndColorChooser:
-    def __init__(self, image_matrix, color_matrix, image_map):
+    def __init__(self, image_matrix, color_matrix):
         self.image_matrix = image_matrix
         self.color_matrix = color_matrix
-        self.image_map = image_map
+        self.image_map = map_images()
         self.images = list(image_matrix.keys())
         self.colors = list(color_matrix.keys())
+        print(self.image_matrix)
 
     def get_next_image(self, current_image):
         """Return the next image path based on transition matrix"""

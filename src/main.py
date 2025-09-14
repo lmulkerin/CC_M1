@@ -20,8 +20,7 @@ def generate_grid(rows, cols, start_image="1", start_color="cyan"):
     Returns:
 
     '''
-    image_map = map_images()
-    chooser = ImageAndColorChooser(IMAGE_MATRIX, COLOR_MATRIX, image_map)
+    chooser = ImageAndColorChooser(IMAGE_MATRIX, COLOR_MATRIX)
     current_image, current_color = start_image, start_color
     processed_images = []
 

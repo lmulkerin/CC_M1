@@ -5,7 +5,7 @@ import numpy as np
 
 # This was needed to access images properly:
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))  # go up from src/
-IMAGE_DIR = os.path.join(BASE_DIR, "images")
+IMAGE_DIR = os.path.join(BASE_DIR, "assets")
 
 
 def map_images():

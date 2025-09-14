@@ -3,7 +3,10 @@ import numpy as np
 
 '''This chooses an image and a color based on transition matrices, then returns them as a tuple'''
 
-IMAGE_DIR = os.path.join("CC_M1", "images")
+# This was needed to access images properly:
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))  # go up from src/
+IMAGE_DIR = os.path.join(BASE_DIR, "images")
+
 
 def map_images():
     image_map = {}

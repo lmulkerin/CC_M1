@@ -40,7 +40,7 @@ def generate_grid(rows, cols, start_image="1", start_color="cyan"):
     return grid
 
 if __name__ == "__main__":
-    final_grid = generate_grid(3, 4, start_image="1", start_color="cyan")
+    final_grid = generate_grid(3, 7, start_image="1", start_color="cyan")
     plt.imshow(final_grid)
     plt.axis("off")
     plt.show()

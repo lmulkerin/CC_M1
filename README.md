@@ -39,7 +39,7 @@ years, and a transition. They begin to blur together, I think in a way that capt
 I also carefully chose two photos of my mom, for similar reasons. They blend into the sea of neon until you look
 closely at each image, much like subtle mannerisms acted out day to day that I think nothing of, until I realize
 they didn't come from nowhere.
-This project is not useful - it's not a T-shirt design, a golf course, or anything that could help me write a
+This project is not strictly useful - it's not a T-shirt design, a golf course, or anything that could help me write a
 screenplay. It's only thought-provoking.
 
 Challenges:
@@ -57,5 +57,7 @@ where my neck and shoulders are removed).
 
 Creativity:
 In a literal sense, my project is creative. Run the code, and it creates a unique grid of images and colors that has
-different appeal eah time (for example, whole columns of solid colors gives the image a different effect than 
-scrambled disco-floor-style grids). I think this qualifies as creative, in that it is creating.
+different appeal each time (for example, whole columns of solid colors gives the image a different effect than 
+scrambled disco-floor-style grids). I think this qualifies as creative, in that it is creating. I also think it is novel,
+and while not useful in a typical sense as mentioned above, art in itself serves an important purpose. Thus, overall, I
+would call it creative, even if it is strictly bounded (by 16 photos, aselection of colors, probabilities, etc.).
